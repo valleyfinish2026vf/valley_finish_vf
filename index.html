@@ -169,3 +169,70 @@
 </body>
         </html>
 ..
+<section class="gallery">
+    <h2>Our Projects</h2>
+    <p>Take a look at some of our recent work.</p>
+
+    <div class="gallery-grid">
+
+        <div class="project">
+            <img src="project1.jpg" alt="Valley Finish Project 1">
+            <h3>Wall Finishing</h3>
+        </div>
+
+        <div class="project">
+            <img src="project2.jpg" alt="Valley Finish Project 2">
+            <h3>Painting Work</h3>
+        </div>
+
+        <div class="project">
+            <img src="project3.jpg" alt="Valley Finish Project 3">
+            <h3>Interior Finishing</h3>
+        </div>
+
+        <div class="project">
+            <img src="project4.jpg" alt="Valley Finish Project 4">
+            <h3>Our Recent Work</h3>
+        </div>
+
+    </div>
+</section>
+
+<style>
+.gallery {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.gallery h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.project {
+    background: white;
+    width: 280px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.project img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.project h3 {
+    margin-top: 10px;
+}
+</style>
